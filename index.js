@@ -1,7 +1,7 @@
-let n = 1;
+let n = 0;
 function takeANumber(katzDeliLine, n) {
-  katzDeliLine.push (n)
   n++
+  katzDeliLine.push (n)
   return ( "Welcome, you are number " + n + ".")
 }
 
